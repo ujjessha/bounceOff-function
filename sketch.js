@@ -12,7 +12,6 @@ function setup() {
   movingRect.velocityY = -5;
   fixedRect.velocityY = +5;
 }
-
 function draw() {
   background(0,0,0);  
 bounceOff(movingRect,fixedRect);
